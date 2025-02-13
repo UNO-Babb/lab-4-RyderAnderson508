@@ -3,7 +3,7 @@
 #Date:02/12/2025
 #Assignment:Lab 3
 
-import turtle #needed generally but not in CodeHS
+
 hideturtle() #hides the default turtle in CodeHS
 def drawSquare(myTurtle, size):
     for i in range(4):
@@ -32,9 +32,6 @@ def squaresInSquares(myTurtle, num):
         myTurtle.pendown()
         drawSquare(myTurtle, size)
         size -= 20
-        myTurtle.penup()
-        myTurtle.goto(-size / 2,size / 2)
-        myTurtle.pendown()
         
     
     
@@ -54,6 +51,9 @@ def main():
 
     # squaresInSquares(myTurtle, 5) #draws 5 concentric squares
     # squaresInSquares(myTurtle, 3) #draws 3 concentric squares
+       
+        
+    
+    
+    
 
-
-main()
